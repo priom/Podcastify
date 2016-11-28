@@ -1,7 +1,5 @@
 source 'https://rubygems.org'
 
-ruby '2.3.1'
-
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
 gem 'puma', '~> 3.0'
 gem 'sass-rails', '~> 5.0'
@@ -20,6 +18,7 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'devise', '~> 4.2'
 gem 'paperclip', '~> 5.1'
 gem 'aws-sdk', '~> 2.6', '>= 2.6.19'
+gem 'codeship'
 
 group :development, :test do
   gem 'byebug', platform: :mri
